@@ -1,0 +1,8 @@
+# API Documentation
+springdoc:
+  cache:
+    disabled: true
+  paths-to-exclude:
+    - /profile/**
+  default-produces-media-type: "application/json"
+  writer-with-order-by-keys: true
